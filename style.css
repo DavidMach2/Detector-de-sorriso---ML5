@@ -1,0 +1,86 @@
+body {
+	background-color: #49567c;
+	margin: 0;
+}
+
+.header {
+	height: 60px;
+	background-color: #293452;
+	border-bottom: 2px solid #fff;
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+}
+
+.header__title {
+	display: flex;
+	padding-left: 15px;
+	color: #fff;
+	height: 60px;
+	align-items: center;
+	font-size: 25px;
+}
+
+.container {
+	background-color: #49567c;
+}
+
+.container__text {
+	color: #fff;
+	margin: 30px;
+}
+
+.container__introduction {
+	font-size: 20px;
+}
+
+.container__camera {
+	margin: 50px;
+	background-color: #293452;
+	display: flex;
+	flex-direction: row;
+	border: 2px solid #fff;
+	height: 400px;
+}
+
+.container__inside {
+	justify-content: center;
+	display: flex;
+}
+
+.container__open-camera {
+	display: flex;
+	flex-direction: column;
+}
+
+.container__button {
+	width: 150px;
+	height: 35px;
+	color: #fff;
+	margin-top: 10px;
+	border: 2px solid #fff;
+	align-self: center;
+	background-color: #49567c;
+}
+
+.container__webcam {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	border: 2px solid white;
+	height: 350px;
+	width: 350px;
+}
+
+.container__images {
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+}
+
+.container__smile {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
